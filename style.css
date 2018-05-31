@@ -29,6 +29,14 @@ body {
   align-items: center;
 }
 
+.header-content {
+  margin-top: 100px;
+}
+
+.title {
+  font-weight: 100;
+}
+
 .content {
   max-width: 70rem;
   margin: auto;
@@ -53,13 +61,14 @@ body {
   margin: 10px;
 }
 
-@media (max-width: 960px) {
-  .content {
-    padding: 0 3rem 0 3rem;
+@media (min-width: 75%) {
+  .image {
+    width: 800px;
   }
 }
 
 .nav-color {
+  padding-top: 10px;
   color: white;
 }
 
@@ -103,7 +112,6 @@ li {
 p {
   color: black;
   font-size: 16px;
-  font-weight: 900;
   margin-top: 0;
 }
 
@@ -132,6 +140,14 @@ p {
   }
 }
 
+.text-footer {
+  font-size: 15px;
+}
+
+.image {
+  margin: 20px;
+}
+
 #preloader {
   overflow: hidden;
   background-color: #fff;
@@ -155,9 +171,6 @@ p {
   font-size: 15;
 }
 
-.image {
-  margin: 50px;
-}
 .colorlib-load {
   -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
   animation: 2000ms linear 0s normal none infinite running colorlib-load;
@@ -221,9 +234,8 @@ p {
   background-color: #222222;
   -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  height: 70px;
-  position: fixed;
   top: 0;
+  position: fixed;
   z-index: 99;
 }
 
