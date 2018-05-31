@@ -41,12 +41,17 @@ body {
 }
 
 .outstyle {
-  background: transparent;
+  background: white;
   width: 90px;
   border-radius: 100px;
-  /* border: 1px solid transparent; */
+  border-style: none;
 }
 
+.btn-rose {
+  background-color: #D9534F;
+  color: white;
+  margin: 10px;
+}
 
 @media (max-width: 960px) {
   .content {
@@ -118,7 +123,7 @@ p {
 }
 
 .section-heading {
-  margin-bottom: 60px;
+  margin-bottom: -40px;
 }
 
 @media (min-width: 992px) {
@@ -275,4 +280,8 @@ p {
 
 .single-special p {
   margin-bottom: 0;
+}
+
+footer {
+  background-color: #221E1F;
 }
