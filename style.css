@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
+@import 'css/bootstrap.min.css';
+@import 'css/animate.css';
+@import 'css/magnific-popup.css';
+@import 'css/owl.carousel.min.css';
+@import 'css/slick.css';
+@import 'css/font-awesome.min.css';
+@import 'css/themify-icons.css';
+@import 'css/ionicons.min.css';
+/* --------------------------
+:: 1.0 Base CSS Start
+-------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #221E1F;
+  overflow-x: hidden;
+}
+
+.header {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  max-width: 70rem;
+  margin: auto;
+  text-align: center;
+}
+
+.size-power {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.outstyle {
+  background: transparent;
+  width: 90px;
+  border-radius: 100px;
+  /* border: 1px solid transparent; */
+}
+
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+.nav-color {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+#scrollUp {
+  bottom: 0;
+  font-size: 24px;
+  right: 30px;
+  width: 50px;
+  background-color: #E84545;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+.letter {
+  color: #999999;
+}
+
+.heading-text>p {
+  font-size: 16px;
+}
+
+.section-heading>h2 {
+  font-weight: 300;
+  color: #2B2E4A;
+  font-size: 48px;
+  margin: 0;
+}
+
+.section-heading {
+  margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    max-width: 20%;
+  }
+}
+
+#preloader {
+  overflow: hidden;
+  background-color: #fff;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+}
+
+.margin {
+  margin: 20px;
+}
+
+.color-p {
+  color: #999999;
+}
+
+.size {
+  font-size: 15;
+}
+
+.image {
+  margin: 50px;
+}
+.colorlib-load {
+  -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
+  animation: 2000ms linear 0s normal none infinite running colorlib-load;
+  background: transparent none repeat scroll 0 0;
+  border-color: #dddddd #dddddd #E84545;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  height: 40px;
+  left: calc(50% - 20px);
+  position: relative;
+  top: calc(50% - 20px);
+  width: 40px;
+  z-index: 9;
+}
+
+@-webkit-keyframes colorlib-load {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes colorlib-load {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.main_area {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  top: 0;
+  padding: 0 4%;
+  background-color: #222222;
+}
+
+.icon {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.bg-rose {
+  background-color: #D9534F !important;
+}
+
+/* stcicky css */
+
+.main_area.sticky {
+  background-color: #222222;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.main_area.sticky .menu_area .navbar-brand {
+  font-size: 50px;
+}
+
+.main_area.sticky .menu_area #nav .nav-link {
+  padding: 23px 15px;
+}
+
+.main_area.sticky .navbar {
+  padding: 0;
+}
+
+.single-special>h4 {
+  font-size: 22px;
+  color: white;
+}
+
+.single-icon {
+  margin-bottom: 25px;
+}
+
+.single-special>h4 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.single-special {
+  padding: 20px;
+  border-radius: 40px 40px 40px 0px;
+  -webkit-transition-duration: 800ms;
+  -o-transition-duration: 800ms;
+  transition-duration: 800ms;
+  margin-bottom: 30px;
+}
+
+.special_description_content>h2 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.color-white {
+  color: white;
+}
+
+.single-special:hover {
+  -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+}
+
+.single-special p {
+  margin-bottom: 0;
+}
